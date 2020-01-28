@@ -1,1 +1,90 @@
+.container{
+    width: 1100px;
+    margin-top: 100px;
+}
+h3{
+    text-align:center;
+}
 
+.header{
+    font-size:70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}.timer{
+    font-size:50px;
+}
+
+.startButton{
+color:black;
+background-color:salmon;
+color: white;
+margin-left: auto;
+margin-right: auto;
+height:100px;
+font-size:50px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border-radius: 15px;
+}.startButton:hover{
+    color:salmon;
+    background-color:white;
+    border: 10px solid salmon;
+}
+
+.answerButton{
+    background-color:salmon;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    height:100px;
+    font-size:50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0;
+    border-radius: 15px;
+}.answerButton:hover{
+    color:salmon;
+    background-color:white;
+    border: 10px solid salmon;
+}
+
+.questionTitle{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 50px;
+}
+
+#questionConfirm{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color:grey;
+}
+
+.restartButton{
+    font-size:25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 30%;
+    height: 50px;
+    margin-left: 35%;
+    margin-right:35%;
+    color: white;
+    background-color: salmon;
+}.restartButton:hover{
+    color: salmon;
+    background-color:white;
+    border: 5px solid salmon;
+}
+
+.form{
+    background-color: white;
+    border: 2px solid grey;
+    width: 40%;
+    height:35px;
+    margin-right: 30%;
+    margin-left: 30%;
+
+}
+
+.newDisplay{
+    padding-top:15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
